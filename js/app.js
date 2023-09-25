@@ -1,11 +1,3 @@
-var msg = 'Hello World';
-console.log(msg);
+var logger = require('./logger.js');
 
-setTimeout()
-clearTimeout();
-
-setInterval();
-clearInterval()
-
-var message ='';
-globalThis.setTimeout
+logger.log('message')
